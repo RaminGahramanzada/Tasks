@@ -20,13 +20,13 @@ public class MultiDimensionArray {
         while (index < 9) {
             int row = siraSayi[index] / 3;
             int col = siraSayi[index] % 3;
-            System.out.print(arr[row][col]);
+            System.out.print(arr[row][col]+",");
 
-
-            for (int i = 0; i <1; i++) {
-                System.out.print(",");
-
-            }
+//
+//            for (int i = 0; i <1; i++) {
+//                System.out.print(",");
+//
+//            }
             index++;
 
         }
