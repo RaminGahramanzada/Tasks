@@ -22,11 +22,7 @@ public class MultiDimensionArray {
             int col = siraSayi[index] % 3;
             System.out.print(arr[row][col]+",");
 
-//
-//            for (int i = 0; i <1; i++) {
-//                System.out.print(",");
-//
-//            }
+
             index++;
 
         }
